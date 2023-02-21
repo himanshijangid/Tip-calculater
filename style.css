@@ -59,7 +59,7 @@ h1{
     visibility: hidden;
     border-radius: 10px;
     /* position: fixed; */
-    background-color: #fff;
+   
 }
 #tip-amount.show{
     visibility: visible;
