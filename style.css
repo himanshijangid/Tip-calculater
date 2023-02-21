@@ -3,7 +3,7 @@
 .body{
     padding: 0;
     margin: 0;
-    height: 81vh;
+    height: 100vh;
     background: #2A2734;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -13,3 +13,80 @@
  background-size: cover;
 }
 
+.container{
+    background-color: rgba(95,158,160,0.8);
+    height: 380px;
+    width: 600px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0  6px 6px grey  inset;
+    
+   
+}
+span{
+    color: rgba(95,158,160,0.8);
+    text-shadow:  1px 1px grey ;
+}
+.label{
+   font-size: 1.5rem;
+}
+input{
+   
+   
+}
+h1{
+    position:absolute;
+    margin-top: -450px;
+    
+}
+#calculate{
+    margin: 30px 40%;
+    padding: 5px;
+    border-radius: 10px;
+    border: gray;
+
+}
+#calculate :hover{
+    border: 5px 2px grey inset  ;
+}
+
+#tip-amount{
+    
+    width: 200px;
+    height: 90px;
+    margin-left: 140px;
+    visibility: hidden;
+    border-radius: 10px;
+    /* position: fixed; */
+    background-color: #fff;
+}
+#tip-amount.show{
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1 rem;
+    /* -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s ;
+    animation: fadein 0.5s,
+        fadeout 0.5s 2.5s ; */
+}
+/* 
+@keyframes fadein{
+    from {bottom:0; opacity: 0;}
+    to {bottom: 30;opacity: 1;}
+}
+
+@keyframes fadeout{
+    from {bottom:30; opacity: 1;}
+    to {bottom: 0;opacity: 0;}
+}
+@-webkit-keyframes fadeout{
+    from {bottom:30; opacity: 1;}
+    to {bottom: 0;opacity: 0;}
+}
+
+@-webkit-keyframes fadein{
+    from {bottom:0; opacity: 0;}
+    to {bottom: 30;opacity: 1;}
+} */
